@@ -1,0 +1,9 @@
+pytest
+flake8
+numpy==1.23.4
+opencv-python
+robogym==1.0.4
+git+https://github.com/ivan-alles/robogym
+pydot
+matplotlib
+graphviz
