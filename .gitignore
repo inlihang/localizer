@@ -1,5 +1,5 @@
 .temp
-.venv
+.venv*
 __pycache__
 models/*/*.svg
 models/*/*.png

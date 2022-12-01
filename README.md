@@ -47,7 +47,7 @@ For an easy start, this repository contains:
 * A hands-on demo app for training and running models
 
 ## Setup
-These instructions use Windows syntax. 
+### Windows 
 
 1. To run neural networks on a GPU (highly recommended), 
    install the required **[prerequisites](https://www.tensorflow.org/install/gpu)** for TensorFlow 2.
@@ -55,6 +55,31 @@ These instructions use Windows syntax.
 3. Install the dependencies: `pipenv sync`.
 4. Activate the pipenv environment: `pipenv shell`.
 5. Add localizer to python: `set PYTHONPATH=.`.  
+### JetPack 5.0.2
+```shell
+# clone git repo
+mkdir ~/lihang
+cd ~/lihang
+git clone https://github.com/inlihang/localizer.git
+cd localizer
+
+# install virtualenv (Tensorflow on JetPack 5.0.2 only supports python 3.8)
+sudo apt install python3.8-venv
+python3.8 -m venv .venv3.8
+source .venv3.8/bin/activate
+
+# install pre-requisites
+pip3 install -U numpy grpcio absl-py py-cpuinfo psutil portpicker six mock requests gast h5py astor termcolor protobuf keras-applications keras-preprocessing wrapt google-pasta setuptools testresources
+
+# install tensorflow for python 3.8 on arm and linux
+pip install https://developer.download.nvidia.com/compute/redist/jp/v502/tensorflow/tensorflow-2.10.0+nv22.10-cp38-cp38-linux_aarch64.whl
+
+# verify the installtion (should see GPU info if successful installation)
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+
+pip install -r requirements.txt
+export PYTHONPATH=":./.venv3.8v2/lib/python3.8/site-packages"
+```
 
 ## Hands-on python demo
 
@@ -62,7 +87,7 @@ These instructions use Windows syntax.
 
 To see how to detect the position and orientation of objects without writing any code, use the hands-on demo app. 
 You can interactively train and run a model on images from your web camera. Run 
-`python localizer\hands_on_demo.py [CAMERA_ID]` and follow the on-screen instructions. 
+`python localizer/hands_on_demo.py [CAMERA_ID]` and follow the on-screen instructions. 
 You can select a camera with the optional `CAMERA_ID`parameter. It is an integer with the default value of 0. 
 
 ## Converting an existing dataset
@@ -120,7 +145,7 @@ You can start off with the included program for prediction on images in a folder
  
 `python localizer\predict_for_images.py PATH_TO_MODEL_CONFIG IMAGES_DIR`.
  
-For example: `python localizer\predict_for_images.py models\tools\config.json datasets\tools`.
+For example: `python localizer/predict_for_images.py models/tools/config.json datasets/tools`.
 
 Refer to the source code for details on how to find the position and orientation of an object in the prediction.
 
