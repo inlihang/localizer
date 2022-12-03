@@ -1,0 +1,181 @@
+{
+    "definitions": {
+        "files_root_dir": "",
+        "marker_types": {
+            "empty": {
+                "categories": [
+                    {
+                        "color": "#ff0000",
+                        "id": 0,
+                        "name": "empty"
+                    }
+                ],
+                "description": "Image without objects.",
+                "rendering_script": [
+                    "p.SetBaseTransform(false, false)",
+                    "p.SetDefaultPen()",
+                    "p.DrawEllipse(-50, -50, 100, 100)"
+                ],
+                "stamp": true,
+                "value_type": "point"
+            },
+            "object": {
+                "categories": [
+                    {
+                        "color": "#ff0000",
+                        "id": 0,
+                        "name": "category 0"
+                    },
+                    {
+                        "color": "#00ff00",
+                        "id": 0,
+                        "name": "category 1"
+                    },
+                    {
+                        "color": "#0000ff",
+                        "id": 0,
+                        "name": "category 2"
+                    }
+                ],
+                "description": " ",
+                "line_width": -5,
+                "rendering_script": [
+                    "p.SetBaseTransform(true, true)",
+                    "p.SetDefaultPen()",
+                    "let object_size = 380",
+                    "p.DrawEllipse(-object_size / 2, -object_size / 2, object_size, object_size)",
+                    "let arrow_size = object_size / 4",
+                    "p.DrawLine(0, 0, arrow_size, 0)",
+                    "p.DrawLine(arrow_size * 0.95, arrow_size * 0.05, arrow_size, 0)",
+                    "p.DrawLine(arrow_size * 0.95, -arrow_size * 0.05, arrow_size, 0)",
+                    "p.DrawLine(0, 0, 0, arrow_size)",
+                    "p.DrawLine(arrow_size * 0.05, arrow_size * 0.95, 0, arrow_size)",
+                    "p.DrawLine(-arrow_size * 0.05, arrow_size * 0.95, 0, arrow_size)"
+                ],
+                "value_type": "oriented_point"
+            }
+        }
+    },
+    "files": [
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "346.25 191.562 1.68867"
+                }
+            ],
+            "name": "1.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "348.75 191.562 -3.05322"
+                }
+            ],
+            "name": "10.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "353.125 171.563 3.01091"
+                }
+            ],
+            "name": "11.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "361.25 251.562 -2.58968"
+                }
+            ],
+            "name": "12.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "329.375 144.063 1.26306"
+                }
+            ],
+            "name": "2.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "364.375 245.937 -2.65629"
+                }
+            ],
+            "name": "3.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "353.75 197.187 -3.04853"
+                }
+            ],
+            "name": "4.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "350 170.313 2.98224"
+                }
+            ],
+            "name": "5.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "341.25 199.062 0"
+                }
+            ],
+            "name": "6.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "342.5 200.937 -0.12751"
+                }
+            ],
+            "name": "7.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "362.5 132.813 0.773351"
+                }
+            ],
+            "name": "8.jpg"
+        },
+        {
+            "markers": [
+                {
+                    "category": 0,
+                    "type": "object",
+                    "value": "341.25 156.563 0.376242"
+                }
+            ],
+            "name": "9.jpg"
+        }
+    ]
+}

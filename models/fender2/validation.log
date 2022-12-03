@@ -1,0 +1,7 @@
+TRAIN PHASE: validated
+Image file 36.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 222.03 -120.17 0 <-> pr 353.96 228.43 -130.61 0 0.68, err pos 9.05, err orient -10.43
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|      1|      1|100.00|    9.05|  10.43|    9.05|  10.43|      0|  0.00|      0|  0.00
+ALL |      1|      1|100.00|    9.05|  10.43|    9.05|  10.43|      0|  0.00|      0|  0.00
+Images 1, run time 7.632 s; per image min: 7.632, max: 7.632, mean: 7.632, median: 7.632

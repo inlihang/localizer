@@ -1,0 +1,14 @@
+Filter "validate" contains 4 data elements
+Filter "train" contains 8 data elements
+Filter "all" contains 12 data elements
+Creating model, input shape [384, 384, 3]
+Output shape: (None, 1, None, None, 4), parameters: 1195972
+Feature model parameters: 1172256 (98.017%)
+TRAIN PHASE: validated
+Train on 8 data elements.
+Validate on 4 data elements.
+Training examples: 5008, loss: 0.005877, 18.30 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|      4|      4|100.00|    4.70|   4.73|    5.63|   8.42|      0|  0.00|      0|  0.00
+ALL |      4|      4|100.00|    4.70|   4.73|    5.63|   8.42|      0|  0.00|      0|  0.00
+Images 4, run time 7.560 s; per image min: 0.252, max: 6.780, mean: 1.890, median: 0.264

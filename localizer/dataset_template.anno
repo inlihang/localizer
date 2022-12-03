@@ -25,7 +25,7 @@
     "rendering_script": [
      "p.SetBaseTransform(true, true)",
      "p.SetDefaultPen()",
-     "let object_size = 88",
+     "let object_size = 380",
      "p.DrawEllipse(-object_size / 2, -object_size / 2, object_size, object_size)",
      "let arrow_size = object_size / 4",
      "p.DrawLine(0, 0, arrow_size, 0)",

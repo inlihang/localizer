@@ -1,0 +1,13 @@
+TRAIN PHASE: validated
+Image file 10.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 353.73 193.29 -177.04 0 0.83, err pos 5.27, err orient -2.11
+Image file 3.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 364.38 245.94 -152.19 0 <-> pr 366.31 251.22 -148.90 0 0.77, err pos 5.63, err orient 3.29
+Image file 5.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.00 170.31 170.87 0 <-> pr 354.14 171.06 179.29 0 0.82, err pos 4.21, err orient 8.42
+Image file 7.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.50 200.94 -7.31 0 <-> pr 343.34 204.20 -9.18 0 0.66, err pos 3.36, err orient -1.87
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|      4|      4|100.00|    4.70|   4.73|    5.63|   8.42|      0|  0.00|      0|  0.00
+ALL |      4|      4|100.00|    4.70|   4.73|    5.63|   8.42|      0|  0.00|      0|  0.00
+Images 4, run time 7.560 s; per image min: 0.252, max: 6.780, mean: 1.890, median: 0.264
