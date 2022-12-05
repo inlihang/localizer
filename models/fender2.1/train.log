@@ -1,0 +1,59 @@
+Filter "validate" contains 11 data elements
+Filter "train" contains 1 data elements
+Filter "all" contains 12 data elements
+Creating model, input shape [384, 384, 3]
+Output shape: (None, 1, None, None, 4), parameters: 4752324
+Feature model parameters: 4712224 (99.156%)
+TRAIN PHASE: final
+Train on 12 data elements.
+Validate on 12 data elements.
+Training examples: 504, loss: 0.015672, 9.82 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|      3| 25.00|    1.87|  13.20|    2.47|  16.40|      9| 75.00|      0|  0.00
+ALL |     12|      3| 25.00|    1.87|  13.20|    2.47|  16.40|      9| 75.00|      0|  0.00
+Images 12, run time 9.936 s; per image min: 0.245, max: 6.952, mean: 0.828, median: 0.274
+Training examples: 1008, loss: 0.009901, 15.67 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|      1|  8.33|    1.14|  12.71|    1.14|  12.71|     11| 91.67|      0|  0.00
+ALL |     12|      1|  8.33|    1.14|  12.71|    1.14|  12.71|     11| 91.67|      0|  0.00
+Images 12, run time 7.525 s; per image min: 0.220, max: 5.026, mean: 0.627, median: 0.225
+Training examples: 1512, loss: 0.006944, 15.75 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|      3| 25.00|    5.01|   9.46|    5.71|  12.68|      9| 75.00|      0|  0.00
+ALL |     12|      3| 25.00|    5.01|   9.46|    5.71|  12.68|      9| 75.00|      0|  0.00
+Images 12, run time 7.623 s; per image min: 0.217, max: 5.095, mean: 0.635, median: 0.224
+Training examples: 2016, loss: 0.005137, 15.86 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|     12|100.00|    5.39|   7.33|    7.95|  15.05|      0|  0.00|      1|  7.69
+ALL |     12|     12|100.00|    5.39|   7.33|    7.95|  15.05|      0|  0.00|      1|  7.69
+Images 12, run time 7.604 s; per image min: 0.217, max: 5.002, mean: 0.634, median: 0.237
+Training examples: 2520, loss: 0.003897, 15.74 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|     10| 83.33|    4.20|   6.41|    7.71|  10.93|      2| 16.67|      0|  0.00
+ALL |     12|     10| 83.33|    4.20|   6.41|    7.71|  10.93|      2| 16.67|      0|  0.00
+Images 12, run time 7.256 s; per image min: 0.217, max: 4.800, mean: 0.605, median: 0.224
+Training examples: 3024, loss: 0.003537, 15.78 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|      9| 75.00|    6.27|   7.30|    9.21|  14.01|      3| 25.00|      0|  0.00
+ALL |     12|      9| 75.00|    6.27|   7.30|    9.21|  14.01|      3| 25.00|      0|  0.00
+Images 12, run time 7.195 s; per image min: 0.217, max: 4.740, mean: 0.600, median: 0.222
+Training examples: 3528, loss: 0.002391, 15.73 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|     12|100.00|    3.84|   5.76|    6.98|  11.58|      0|  0.00|      1|  7.69
+ALL |     12|     12|100.00|    3.84|   5.76|    6.98|  11.58|      0|  0.00|      1|  7.69
+Images 12, run time 7.155 s; per image min: 0.215, max: 4.728, mean: 0.596, median: 0.220
+Training examples: 4032, loss: 0.002326, 15.79 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|     12|100.00|    3.45|   6.60|    6.11|  13.43|      0|  0.00|      0|  0.00
+ALL |     12|     12|100.00|    3.45|   6.60|    6.11|  13.43|      0|  0.00|      0|  0.00
+Images 12, run time 7.245 s; per image min: 0.221, max: 4.752, mean: 0.604, median: 0.227
+Training examples: 4536, loss: 0.001996, 15.72 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|     12|100.00|    2.31|   3.75|    3.83|   9.70|      0|  0.00|      0|  0.00
+ALL |     12|     12|100.00|    2.31|   3.75|    3.83|   9.70|      0|  0.00|      0|  0.00
+Images 12, run time 7.737 s; per image min: 0.221, max: 5.129, mean: 0.645, median: 0.238
+Training examples: 5000, loss: 0.001722, 15.79 training examples/s.
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     12|     12|100.00|    4.23|   3.35|    5.57|   6.58|      0|  0.00|      0|  0.00
+ALL |     12|     12|100.00|    4.23|   3.35|    5.57|   6.58|      0|  0.00|      0|  0.00
+Images 12, run time 7.459 s; per image min: 0.215, max: 4.955, mean: 0.622, median: 0.225

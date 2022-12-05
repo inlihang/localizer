@@ -21,6 +21,7 @@ image_dir = sys.argv[2]
 
 localizer = predict.Localizer(config_file_name)
 
+total, no_found = 0, 0
 for file in os.listdir(image_dir):
     if os.path.splitext(file)[1].lower() not in [".png", ".jpg", ".jpeg"]:
         continue
@@ -34,9 +35,15 @@ for file in os.listdir(image_dir):
 
     predictions = localizer.predict(image)
 
+    total += 1
+    if not predictions:
+        no_found += 1
+
     result_image = np.copy(image)
     utils.draw_objects(result_image, predictions, axis_length=20, thickness=2)
     result_image = (np.clip(result_image * 255, 0, 255)).astype(np.uint8)
 
     cv2.imshow("result", result_image)
     cv2.waitKey(500)
+
+print(f"total: {total},\no_found: {no_found}({float(no_found)/total})")

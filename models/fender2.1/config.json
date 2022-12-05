@@ -1,0 +1,59 @@
+{
+  "save_features": false,
+  "dataset": "../localize/data/fender2/dataset/train/dataset_template.anno",
+  "transfer_learning_base": "models/transfer_learning_base/features.tf",
+  "retrain_transfer_learning": true,
+  "object_size": 350,
+  "input_scale": 1,
+  "model_scale": 0.125,
+  "pad_to": 32,
+  "background_weight": 0.1,
+  "object_weight_sigma_factor": 3,
+  "weight_border": 7,
+  "training_fraction": 0.2,
+  "validated_training_examples_count": 0,
+  "final_training_examples_count": 5000,
+  "training_examples_per_batch": 8,
+  "training_examples_per_epoch": 500,
+  "data_augmentation_rotation": [
+    -3.1416,
+    3.1416
+  ],
+  "data_augmentation_shear_rotation": [
+    -0.2,
+    0.2
+  ],
+  "data_augmentation_shear_scale": [
+    0.8,
+    1.2
+  ],
+  "data_augmentation_scale": [
+    0.7,
+    1.5
+  ],
+  "data_augmentation_color": [
+    0.7,
+    1.5
+  ],
+  "loss_weight_pos": 1,
+  "loss_weight_angle": 1,
+  "clip_color": [
+    0,
+    1
+  ],
+  "rng_seed": 1,
+  "sigma": 1.5,
+  "confidence_ksize": 7,
+  "angle_ksize": 3,
+  "pos_ksize": 3,
+  "confidence_thr": 0.5,
+  "position_diff_thr": 15,
+  "angle_diff_thr": 999,
+  "input_shape": [
+    384,
+    384,
+    3
+  ],
+  "random_background_probability": 0.1,
+  "process_count": 4
+}

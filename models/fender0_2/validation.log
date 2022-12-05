@@ -1,0 +1,413 @@
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 346.25 191.56 96.75 0
+Image file 10a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 348.75 191.56 -174.94 0
+Image file 4a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 353.75 197.19 -174.67 0
+Image file 6a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 341.25 199.06 0.00 0
+Image file 7a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 342.50 200.94 -7.31 0
+Image file 9a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 341.25 156.56 21.56 0
+Image file 1.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 342.19 118.32 61.84 0
+Image file 11.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 363.28 120.07 58.64 0
+Image file 16.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 370.90 121.83 57.53 0
+Image file 21.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 358.01 121.25 57.63 0
+Image file 26.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 361.52 229.65 -128.56 0
+Image file 31.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 350.98 243.12 -122.74 0
+Image file 36.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 360.35 222.03 -120.17 0
+Image file 41.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 349.81 243.71 -141.95 0
+Image file 46.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 355.08 206.21 -158.07 0
+Image file 51.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 360.35 201.52 -162.77 0
+Image file 56.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 364.45 130.62 33.69 0
+Image file 6.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 342.77 127.69 65.66 0
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|      0|  0.00|    0.00|   0.00|    0.00|   0.00|     18|100.00|      0|  0.00
+ALL |     18|      0|  0.00|    0.00|   0.00|    0.00|   0.00|     18|100.00|      0|  0.00
+Images 18, run time 16.698 s; per image min: 0.227, max: 6.599, mean: 0.928, median: 0.237
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 346.25 191.56 96.75 0
+Image file 10a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 348.75 191.56 -174.94 0
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 350.60 193.14 -159.48 0 0.55, err pos 5.13, err orient 15.19
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 343.61 207.68 9.25 0 0.65, err pos 8.94, err orient 9.25
+Image file 7a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 342.50 200.94 -7.31 0
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 343.89 159.57 32.12 0 0.58, err pos 4.00, err orient 10.56
+Image file 1.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 342.19 118.32 61.84 0
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 360.35 120.86 56.58 0 0.51, err pos 3.03, err orient -2.07
+Image file 16.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 370.90 121.83 57.53 0
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 360.31 121.20 55.55 0 0.51, err pos 2.30, err orient -2.09
+Image file 26.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 361.52 229.65 -128.56 0 <-> pr 360.49 231.11 -134.42 0 0.60, err pos 1.79, err orient -5.86
+Image file 31.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.98 243.12 -122.74 0 <-> pr 352.12 240.17 -126.85 0 0.62, err pos 3.16, err orient -4.11
+Image file 36.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 222.03 -120.17 0 <-> pr 360.53 216.74 -129.22 0 0.68, err pos 5.29, err orient -9.05
+Image file 41.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 349.81 243.71 -141.95 0 <-> pr 351.92 247.45 -137.74 0 0.81, err pos 4.30, err orient 4.21
+Image file 46.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 355.08 206.21 -158.07 0 <-> pr 358.21 208.74 -155.12 0 0.64, err pos 4.03, err orient 2.95
+Image file 51.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 201.52 -162.77 0 <-> pr 366.60 207.44 -157.50 0 0.57, err pos 8.61, err orient 5.26
+Image file 56.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 364.45 130.62 33.69 0
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 336.99 127.85 65.22 0 0.56, err pos 5.78, err orient -0.44
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     12| 66.67|    5.17|   7.21|    8.94|  15.19|      6| 33.33|      0|  0.00
+ALL |     18|     12| 66.67|    5.17|   7.21|    8.94|  15.19|      6| 33.33|      0|  0.00
+Images 18, run time 15.120 s; per image min: 0.225, max: 6.188, mean: 0.840, median: 0.237
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 346.25 191.56 96.75 0
+Image file 10a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 344.04 191.20 -165.30 0 0.69, err pos 4.72, err orient 9.63
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 350.87 192.63 -163.37 0 0.72, err pos 5.39, err orient 11.30
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 343.60 206.87 -0.69 0 0.64, err pos 8.15, err orient -0.69
+Image file 7a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.50 200.94 -7.31 0 <-> pr 343.50 206.93 -8.84 0 0.55, err pos 6.07, err orient -1.53
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 337.76 159.59 23.85 0 0.74, err pos 4.62, err orient 2.30
+Image file 1.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.19 118.32 61.84 0 <-> pr 344.01 119.21 61.00 0 0.58, err pos 2.03, err orient -0.84
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 367.22 119.79 56.14 0 0.64, err pos 3.95, err orient -2.51
+Image file 16.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 370.90 121.83 57.53 0
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 360.60 120.40 54.42 0 0.64, err pos 2.73, err orient -3.21
+Image file 26.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 361.52 229.65 -128.56 0 <-> pr 359.85 231.50 -135.00 0 0.52, err pos 2.50, err orient -6.44
+Image file 31.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.98 243.12 -122.74 0 <-> pr 351.52 240.56 -129.61 0 0.53, err pos 2.62, err orient -6.88
+Image file 36.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 222.03 -120.17 0 <-> pr 360.15 222.65 -127.55 0 0.64, err pos 0.66, err orient -7.38
+Image file 41.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 349.81 243.71 -141.95 0 <-> pr 350.59 240.63 -131.56 0 0.58, err pos 3.17, err orient 10.39
+Image file 46.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 355.08 206.21 -158.07 0 <-> pr 358.85 207.00 -156.95 0 0.57, err pos 3.86, err orient 1.13
+Image file 51.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 360.35 201.52 -162.77 0
+Image file 56.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 364.45 130.62 33.69 0
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 337.41 127.45 62.21 0 0.62, err pos 5.37, err orient -3.45
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     14| 77.78|    4.40|   6.04|    8.15|  11.30|      4| 22.22|      0|  0.00
+ALL |     18|     14| 77.78|    4.40|   6.04|    8.15|  11.30|      4| 22.22|      0|  0.00
+Images 18, run time 14.105 s; per image min: 0.219, max: 5.468, mean: 0.784, median: 0.225
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 346.25 191.56 96.75 0
+Image file 10a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 351.38 185.31 -167.80 0 0.95, err pos 6.78, err orient 7.13
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 352.78 190.86 -161.68 0 0.90, err pos 6.40, err orient 12.99
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 342.72 206.56 1.60 0 0.73, err pos 7.64, err orient 1.60
+Image file 7a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.50 200.94 -7.31 0 <-> pr 342.97 208.05 -3.91 0 0.64, err pos 7.13, err orient 3.39
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 343.03 152.93 10.18 0 0.80, err pos 4.05, err orient -11.38
+Image file 1.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.19 118.32 61.84 0 <-> pr 343.36 119.45 60.97 0 0.66, err pos 1.63, err orient -0.87
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 366.94 119.87 58.94 0 0.66, err pos 3.67, err orient 0.30
+Image file 16.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 370.90 121.83 57.53 0 <-> pr 376.04 120.09 60.40 0 0.52, err pos 5.43, err orient 2.87
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 360.33 120.63 52.27 0 0.72, err pos 2.40, err orient -5.36
+Image file 26.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 361.52 229.65 -128.56 0 <-> pr 359.02 231.87 -126.03 0 0.71, err pos 3.35, err orient 2.53
+Image file 31.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.98 243.12 -122.74 0 <-> pr 350.29 240.88 -125.84 0 0.84, err pos 2.34, err orient -3.10
+Image file 36.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 222.03 -120.17 0 <-> pr 359.71 222.85 -119.87 0 0.65, err pos 1.04, err orient 0.30
+Image file 41.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 349.81 243.71 -141.95 0 <-> pr 352.31 240.72 -130.33 0 0.64, err pos 3.90, err orient 11.62
+Image file 46.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 355.08 206.21 -158.07 0 <-> pr 359.41 206.36 -149.37 0 0.73, err pos 4.33, err orient 8.71
+Image file 51.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 201.52 -162.77 0 <-> pr 367.92 199.97 -148.66 0 0.75, err pos 7.73, err orient 14.11
+Image file 56.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 364.45 130.62 33.69 0
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 337.49 127.87 66.19 0 0.59, err pos 5.29, err orient 0.53
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     16| 88.89|    5.02|   7.19|    7.73|  14.11|      2| 11.11|      0|  0.00
+ALL |     18|     16| 88.89|    5.02|   7.19|    7.73|  14.11|      2| 11.11|      0|  0.00
+Images 18, run time 14.522 s; per image min: 0.221, max: 5.646, mean: 0.807, median: 0.234
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 346.25 191.56 96.75 0
+Image file 10a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 343.66 191.95 -167.90 0 0.53, err pos 5.10, err orient 7.04
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 344.04 193.14 -162.63 0 0.65, err pos 10.52, err orient 12.04
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 343.15 207.76 8.82 0 0.52, err pos 8.90, err orient 8.82
+Image file 7a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.50 200.94 -7.31 0 <-> pr 344.01 215.64 4.50 0 0.55, err pos 14.78, err orient 11.81
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 336.85 159.03 31.11 0 0.61, err pos 5.04, err orient 9.55
+Image file 1.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.19 118.32 61.84 0 <-> pr 343.21 119.45 53.05 0 0.62, err pos 1.53, err orient -8.79
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 366.66 120.05 49.66 0 0.75, err pos 3.38, err orient -8.98
+Image file 16.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 370.90 121.83 57.53 0 <-> pr 376.05 120.47 55.52 0 0.54, err pos 5.32, err orient -2.01
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 360.03 120.34 49.92 0 0.63, err pos 2.21, err orient -7.71
+Image file 26.jpg, ground truth objects: 1, predicted objects 1
+missing, gt 361.52 229.65 -128.56 0
+ufo, pr 464.09 239.59 -91.96 0 0.51
+Image file 31.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 350.98 243.12 -122.74 0
+Image file 36.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 360.35 222.03 -120.17 0
+Image file 41.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 349.81 243.71 -141.95 0 <-> pr 344.06 240.95 -122.64 0 0.55, err pos 6.37, err orient 19.32
+Image file 46.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 355.08 206.21 -158.07 0
+Image file 51.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 360.35 201.52 -162.77 0
+Image file 56.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 364.45 130.62 33.69 0
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 337.40 127.85 58.47 0 0.81, err pos 5.37, err orient -7.19
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     11| 61.11|    7.24|  10.22|   14.78|  19.32|      7| 38.89|      1|  8.33
+ALL |     18|     11| 61.11|    7.24|  10.22|   14.78|  19.32|      7| 38.89|      1|  8.33
+Images 18, run time 14.535 s; per image min: 0.215, max: 5.858, mean: 0.807, median: 0.229
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 346.25 191.56 96.75 0 <-> pr 336.36 192.14 86.76 0 0.83, err pos 9.91, err orient -10.00
+Image file 10a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 345.69 192.06 -165.78 0 1.01, err pos 3.10, err orient 9.16
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 352.05 194.52 -165.66 0 0.99, err pos 3.16, err orient 9.00
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 337.13 207.76 -3.11 0 0.77, err pos 9.62, err orient -3.11
+Image file 7a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.50 200.94 -7.31 0 <-> pr 342.93 215.86 -11.27 0 0.51, err pos 14.93, err orient -3.97
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 343.71 158.89 28.07 0 0.60, err pos 3.39, err orient 6.51
+Image file 1.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.19 118.32 61.84 0 <-> pr 336.63 119.57 55.25 0 0.69, err pos 5.70, err orient -6.59
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 359.26 120.92 48.95 0 0.87, err pos 4.11, err orient -9.70
+Image file 16.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 370.90 121.83 57.53 0 <-> pr 367.13 121.34 47.39 0 0.74, err pos 3.80, err orient -10.14
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 352.21 121.62 46.25 0 0.85, err pos 5.81, err orient -11.38
+Image file 26.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 361.52 229.65 -128.56 0
+Image file 31.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.98 243.12 -122.74 0 <-> pr 344.02 240.49 -133.40 0 0.50, err pos 7.43, err orient -10.66
+Image file 36.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 360.35 222.03 -120.17 0
+Image file 41.jpg, ground truth objects: 1, predicted objects 2
+found, gt: 349.81 243.71 -141.95 0 <-> pr 351.68 239.91 -140.87 0 0.60, err pos 4.24, err orient 1.08
+ufo, pr 280.18 238.73 -164.04 0 0.63
+Image file 46.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 355.08 206.21 -158.07 0 <-> pr 352.49 207.96 -153.44 0 0.56, err pos 3.12, err orient 4.63
+Image file 51.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 360.35 201.52 -162.77 0
+Image file 56.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 364.45 130.62 33.69 0
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 337.03 128.10 69.62 0 0.82, err pos 5.76, err orient 3.96
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     14| 77.78|    6.86|   7.81|   14.93|  11.38|      4| 22.22|      1|  6.67
+ALL |     18|     14| 77.78|    6.86|   7.81|   14.93|  11.38|      4| 22.22|      1|  6.67
+Images 18, run time 14.335 s; per image min: 0.218, max: 5.456, mean: 0.796, median: 0.232
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 346.25 191.56 96.75 0
+Image file 10a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 351.36 192.68 -174.28 0 0.70, err pos 2.84, err orient 0.66
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 352.54 198.77 -169.45 0 0.75, err pos 1.99, err orient 5.22
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 336.75 208.50 0.28 0 0.75, err pos 10.46, err orient 0.28
+Image file 7a.jpg, ground truth objects: 1, predicted objects 1
+missing, gt 342.50 200.94 -7.31 0
+ufo, pr 342.49 215.94 -3.39 0 0.60
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 338.58 158.04 29.40 0 1.03, err pos 3.06, err orient 7.85
+Image file 1.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.19 118.32 61.84 0 <-> pr 342.20 120.83 61.36 0 0.82, err pos 2.51, err orient -0.48
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 361.46 121.03 54.25 0 0.85, err pos 2.06, err orient -4.40
+Image file 16.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 370.90 121.83 57.53 0 <-> pr 375.41 126.82 61.72 0 0.67, err pos 6.73, err orient 4.19
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 359.81 126.68 58.76 0 0.79, err pos 5.72, err orient 1.12
+Image file 26.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 361.52 229.65 -128.56 0
+Image file 31.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.98 243.12 -122.74 0 <-> pr 350.76 240.89 -128.24 0 0.52, err pos 2.24, err orient -5.50
+Image file 36.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 222.03 -120.17 0 <-> pr 352.74 224.30 -106.90 0 0.52, err pos 7.95, err orient 13.28
+Image file 41.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 349.81 243.71 -141.95 0 <-> pr 344.35 241.49 -136.68 0 0.69, err pos 5.89, err orient 5.27
+Image file 46.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 355.08 206.21 -158.07 0 <-> pr 353.24 208.84 -153.87 0 0.67, err pos 3.21, err orient 4.20
+Image file 51.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 201.52 -162.77 0 <-> pr 366.82 207.62 -160.48 0 0.67, err pos 8.89, err orient 2.28
+Image file 56.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 364.45 130.62 33.69 0 <-> pr 361.34 129.33 33.20 0 0.94, err pos 3.37, err orient -0.49
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 336.52 128.89 66.16 0 0.96, err pos 6.36, err orient 0.50
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     15| 83.33|    5.56|   5.07|   10.46|  13.28|      3| 16.67|      1|  6.25
+ALL |     18|     15| 83.33|    5.56|   5.07|   10.46|  13.28|      3| 16.67|      1|  6.25
+Images 18, run time 14.256 s; per image min: 0.216, max: 5.697, mean: 0.792, median: 0.229
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 346.25 191.56 96.75 0 <-> pr 337.20 192.14 93.37 0 0.72, err pos 9.07, err orient -3.38
+Image file 10a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 350.84 192.58 -178.35 0 0.89, err pos 2.33, err orient -3.42
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 352.31 194.05 -175.10 0 0.93, err pos 3.45, err orient -0.43
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 343.29 207.48 3.12 0 0.97, err pos 8.66, err orient 3.12
+Image file 7a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.50 200.94 -7.31 0 <-> pr 344.74 209.71 1.48 0 0.84, err pos 9.06, err orient 8.78
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 342.84 157.76 25.58 0 0.92, err pos 1.99, err orient 4.02
+Image file 1.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.19 118.32 61.84 0 <-> pr 337.43 120.36 55.51 0 0.82, err pos 5.18, err orient -6.33
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 361.14 121.15 50.05 0 0.90, err pos 2.39, err orient -8.59
+Image file 16.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 370.90 121.83 57.53 0 <-> pr 368.96 120.78 51.35 0 0.87, err pos 2.21, err orient -6.18
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 357.87 121.45 51.14 0 0.87, err pos 0.24, err orient -6.49
+Image file 26.jpg, ground truth objects: 1, predicted objects 0
+missing, gt 361.52 229.65 -128.56 0
+Image file 31.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.98 243.12 -122.74 0 <-> pr 351.22 247.32 -125.15 0 0.52, err pos 4.21, err orient -2.41
+Image file 36.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 222.03 -120.17 0 <-> pr 359.49 223.54 -115.25 0 0.56, err pos 1.74, err orient 4.93
+Image file 41.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 349.81 243.71 -141.95 0 <-> pr 350.47 240.08 -129.43 0 0.87, err pos 3.69, err orient 12.52
+Image file 46.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 355.08 206.21 -158.07 0 <-> pr 353.45 207.32 -150.31 0 0.85, err pos 1.98, err orient 7.76
+Image file 51.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 201.52 -162.77 0 <-> pr 360.27 206.60 -159.83 0 0.67, err pos 5.08, err orient 2.94
+Image file 56.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 364.45 130.62 33.69 0 <-> pr 361.94 134.10 30.27 0 0.84, err pos 4.29, err orient -3.42
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 337.15 128.34 64.33 0 0.97, err pos 5.66, err orient -1.33
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     17| 94.44|    4.93|   5.89|    9.07|  12.52|      1|  5.56|      0|  0.00
+ALL |     18|     17| 94.44|    4.93|   5.89|    9.07|  12.52|      1|  5.56|      0|  0.00
+Images 18, run time 13.577 s; per image min: 0.216, max: 5.067, mean: 0.754, median: 0.223
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 346.25 191.56 96.75 0 <-> pr 336.49 192.04 82.65 0 0.69, err pos 9.77, err orient -14.10
+Image file 10a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 350.76 192.44 174.53 0 0.71, err pos 2.20, err orient -10.54
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 351.67 197.92 -177.39 0 0.77, err pos 2.21, err orient -2.72
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 337.48 201.16 -1.17 0 0.83, err pos 4.31, err orient -1.17
+Image file 7a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.50 200.94 -7.31 0 <-> pr 342.98 207.96 -1.32 0 0.78, err pos 7.04, err orient 5.99
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 338.22 154.35 18.92 0 0.96, err pos 3.76, err orient -2.64
+Image file 1.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.19 118.32 61.84 0 <-> pr 343.33 121.21 58.95 0 0.78, err pos 3.11, err orient -2.89
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 366.19 121.39 52.00 0 0.79, err pos 3.19, err orient -6.65
+Image file 16.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 370.90 121.83 57.53 0 <-> pr 374.86 126.64 54.31 0 0.69, err pos 6.23, err orient -3.22
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 359.61 126.37 53.85 0 0.75, err pos 5.37, err orient -3.78
+Image file 26.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 361.52 229.65 -128.56 0 <-> pr 358.65 232.41 -128.83 0 0.53, err pos 3.99, err orient -0.27
+Image file 31.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.98 243.12 -122.74 0 <-> pr 350.70 240.72 -129.26 0 0.53, err pos 2.42, err orient -6.52
+Image file 36.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 222.03 -120.17 0 <-> pr 358.89 222.91 -116.09 0 0.61, err pos 1.71, err orient 4.08
+Image file 41.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 349.81 243.71 -141.95 0 <-> pr 350.23 240.57 -129.96 0 0.73, err pos 3.16, err orient 11.99
+Image file 46.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 355.08 206.21 -158.07 0 <-> pr 352.60 207.57 -151.55 0 0.70, err pos 2.83, err orient 6.52
+Image file 51.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 201.52 -162.77 0 <-> pr 360.16 206.77 -158.49 0 0.57, err pos 5.26, err orient 4.28
+Image file 56.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 364.45 130.62 33.69 0 <-> pr 359.61 135.28 30.01 0 0.66, err pos 6.72, err orient -3.68
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 337.19 128.58 62.96 0 0.83, err pos 5.65, err orient -2.69
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     18|100.00|    4.84|   6.34|    9.77|  14.10|      0|  0.00|      0|  0.00
+ALL |     18|     18|100.00|    4.84|   6.34|    9.77|  14.10|      0|  0.00|      0|  0.00
+Images 18, run time 14.255 s; per image min: 0.221, max: 5.400, mean: 0.792, median: 0.227
+TRAIN PHASE: final
+Image file 1a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 346.25 191.56 96.75 0 <-> pr 337.08 192.22 84.10 0 0.82, err pos 9.19, err orient -12.66
+Image file 10a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 348.75 191.56 -174.94 0 <-> pr 350.65 192.28 177.37 0 0.71, err pos 2.03, err orient -7.70
+Image file 4a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 353.75 197.19 -174.67 0 <-> pr 351.50 198.68 -176.72 0 0.80, err pos 2.70, err orient -2.05
+Image file 6a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 199.06 0.00 0 <-> pr 342.48 201.52 0.29 0 0.86, err pos 2.75, err orient 0.29
+Image file 7a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.50 200.94 -7.31 0 <-> pr 343.92 206.52 0.41 0 0.81, err pos 5.76, err orient 7.72
+Image file 9a.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 341.25 156.56 21.56 0 <-> pr 337.91 158.71 25.74 0 0.99, err pos 3.97, err orient 4.19
+Image file 1.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.19 118.32 61.84 0 <-> pr 342.22 119.91 56.39 0 0.77, err pos 1.59, err orient -5.44
+Image file 11.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 363.28 120.07 58.64 0 <-> pr 365.94 120.95 48.55 0 0.78, err pos 2.79, err orient -10.09
+Image file 16.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 370.90 121.83 57.53 0 <-> pr 369.63 121.60 53.88 0 0.68, err pos 1.29, err orient -3.65
+Image file 21.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 358.01 121.25 57.63 0 <-> pr 358.96 121.62 49.47 0 0.77, err pos 1.02, err orient -8.16
+Image file 26.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 361.52 229.65 -128.56 0 <-> pr 360.00 233.52 -130.23 0 0.60, err pos 4.16, err orient -1.67
+Image file 31.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 350.98 243.12 -122.74 0 <-> pr 351.16 247.12 -127.66 0 0.74, err pos 4.01, err orient -4.93
+Image file 36.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 222.03 -120.17 0 <-> pr 359.56 223.72 -116.55 0 0.84, err pos 1.87, err orient 3.62
+Image file 41.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 349.81 243.71 -141.95 0 <-> pr 350.74 239.79 -132.10 0 0.75, err pos 4.03, err orient 9.85
+Image file 46.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 355.08 206.21 -158.07 0 <-> pr 353.53 207.51 -156.73 0 0.77, err pos 2.02, err orient 1.35
+Image file 51.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 360.35 201.52 -162.77 0 <-> pr 360.33 201.49 -162.36 0 0.66, err pos 0.03, err orient 0.41
+Image file 56.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 364.45 130.62 33.69 0 <-> pr 362.02 127.66 33.55 0 0.84, err pos 3.84, err orient -0.14
+Image file 6.jpg, ground truth objects: 1, predicted objects 1
+found, gt: 342.77 127.69 65.66 0 <-> pr 337.30 128.39 60.74 0 0.89, err pos 5.51, err orient -4.92
+ Cat|  Total|  Found|     %|RMSE pos|RMSE or|Max  pos|Max  or|Missing|     %|    UFO|     %
+   0|     18|     18|100.00|    3.86|   6.13|    9.19|  12.66|      0|  0.00|      0|  0.00
+ALL |     18|     18|100.00|    3.86|   6.13|    9.19|  12.66|      0|  0.00|      0|  0.00
+Images 18, run time 14.243 s; per image min: 0.215, max: 5.687, mean: 0.791, median: 0.230
